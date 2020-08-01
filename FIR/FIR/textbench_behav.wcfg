@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="textbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="textbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="3689185500000000fs"></ZoomStartTime>
+      <ZoomEndTime time="8509185500000001fs"></ZoomEndTime>
+      <Cursor1Time time="4450000000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="106"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/textbench/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/textbench/RSTn" type="logic">
+      <obj_property name="ElementShortName">RSTn</obj_property>
+      <obj_property name="ObjectShortName">RSTn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/textbench/mem" type="array">
+      <obj_property name="ElementShortName">mem[1:4096][7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[1:4096][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/textbench/FIR_IN" type="array">
+      <obj_property name="ElementShortName">FIR_IN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">FIR_IN[7:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/textbench/i" type="array">
+      <obj_property name="ElementShortName">i[12:0]</obj_property>
+      <obj_property name="ObjectShortName">i[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/textbench/FIR_OUT" type="array">
+      <obj_property name="ElementShortName">FIR_OUT[15:0]</obj_property>
+      <obj_property name="ObjectShortName">FIR_OUT[15:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+</wave_config>
